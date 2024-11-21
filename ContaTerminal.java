@@ -29,7 +29,7 @@ public class ContaTerminal {
 					String nome = sc.nextLine();
 					if (true) {
 						while (true) {
-							if (nome.matches("[A-aZ-z]+")) {
+							if (nome.matches("[A-Za-z ]+( [A-Za-z ]+)*")) {
 								break;
 							} else {
 								System.out.println("Seu nome nao pode ter numeros e simbolos, somentes letras");
